@@ -5,4 +5,4 @@ i = len(L1) // 2
 if len(L1)%2 == 1 :
     print(L2[i])
 else :
-    print((L2[i-1]+L[i])/2)
+    print((L2[i-1]+L1[i])/2)
