@@ -1,2 +1,2 @@
-n = int(input())
-print(n//60, n%60)
+h = int(input())
+print(h//60, h%60)
