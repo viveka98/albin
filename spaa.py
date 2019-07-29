@@ -1,5 +1,6 @@
-q= input()
+import sys, string
+s1 = input()
 k1 = 0
-for c1 in q :
-    if c1.isalnum() or c1.isspace() or c1=='_': k1 += 1
-print(len(q)-k1)
+for c in s1 :
+    if c.isalnum() or c.isspace() or c=='_': k1 += 1
+print(len(s1)-k1)
